@@ -1,0 +1,25 @@
+{
+  "name": "logpilot",
+  "version": "1.0.0",
+  "description": "Smart log file parser and analyzer. Filter, colorize, and analyze logs.",
+  "main": "dist/index.js",
+  "bin": {
+    "logpilot": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "log",
+    "parser",
+    "analyzer",
+    "cli"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
